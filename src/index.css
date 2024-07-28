@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.App {
+  max-width: 500px;
+  /* border: 1px solid black; */
+  margin: 5% auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parent-div {
+  /* height: 400px; */
+  width: 100%;
+  /* border: 1px solid black; */
+  /* justify-content: center; */
+  /* margin-top: 5%; */
+}
+.heading-div {
+  /* height: 40px; */
+  /* border: 1px solid gray; */
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+}
+.heading-div > div {
+  width: 20%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  /* background-color: rgb(238, 238, 238); */
+  font-weight: 500;
+  padding: 0 2 0px;
+}
+.highlight-color {
+  background-color: rgb(70, 70, 232);
+  color: white;
+}
+.date-div,
+.studies-name {
+  height: 40px;
+  /* width: 450px; */
+  width: 80%;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+.date {
+  margin-left: 15px;
+  font-weight: 500;
+}
+.icon {
+  margin-right: 15px;
+}
+.parent-dropdown-div {
+  /* border: 1px solid black; */
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.parent-dropdown-subdiv {
+  height: 40px;
+  width: 350px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 15px;
+  align-items: center;
+  padding: auto;
+  margin-top: 10px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: flex-start;
+}
+.strategy-count {
+  margin-right: 30px;
+  font-weight: 400;
+  color: gray;
+}
+.note-div {
+  display: flex;
+  flex-direction: column; /* Aligns children in a column (vertical stack) */
+  justify-content: center; /* Centers items vertically within the div */
+  align-items: center;
+  margin-top: 100px;
+}
+.note-div > span {
+  padding: 5px;
+}
+.note-divdate {
+  font-weight: 600;
+}
+.node-divwarning {
+  font-weight: 450;
+}
