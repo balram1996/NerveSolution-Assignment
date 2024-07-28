@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/balram1996/NerveSolution-Assignment/static/css/main.c9f7ae07.css",
+    "main.js": "/balram1996/NerveSolution-Assignment/static/js/main.67930627.js",
+    "index.html": "/balram1996/NerveSolution-Assignment/index.html",
+    "main.c9f7ae07.css.map": "/balram1996/NerveSolution-Assignment/static/css/main.c9f7ae07.css.map",
+    "main.67930627.js.map": "/balram1996/NerveSolution-Assignment/static/js/main.67930627.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9f7ae07.css",
+    "static/js/main.67930627.js"
+  ]
+}
